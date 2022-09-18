@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-backend-nodejs",
+  "version": "1.0.0",
+  "description": "this node backend for portfolio managment ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajeedkannoje/portfolio-backend-nodejs.git"
+  },
+  "author": "Sajeed Kannoje",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajeedkannoje/portfolio-backend-nodejs/issues"
+  },
+  "homepage": "https://github.com/sajeedkannoje/portfolio-backend-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.20"
+  }
+}
