@@ -4,7 +4,7 @@
   "description": "this node backend for portfolio managment ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
