@@ -47,14 +47,14 @@ app.post('/sendmail',
         port: 465, // true for 465, false for other ports
         host: "smtp.gmail.com",
         auth: {
-          user: "sajeed.ratiocinativesolutions@gmail.com",
-          pass: "styxiqivbwppaijk",
+          user: process.env.EMAIL,
+          pass: process.env.PASSWORD,
         },
         secure: true,
       });
       const mailData = {
-        from: "sajeed.ratiocinativesolutions@gmail.com", // sender address
-        to: "sajeed.ratiocinativesolutions@gmail.com", // list of receivers
+        from: process.env.EMAIL, // sender address
+        to: process.env.EMAIL, // list of receivers
         subject: 'Enquiry from React portfolio',
         text: 'Web Bug',
         html: `
