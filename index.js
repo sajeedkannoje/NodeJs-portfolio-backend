@@ -97,10 +97,10 @@ app.post('/sendmail',
     }
   });
 
-app.get('/text', async (req, resp) => {
+app.get('/', async (req, resp) => {
 
   resp.send({
-    "test": 'this is test'
+    "start": 'App start'
   })
 })
 
